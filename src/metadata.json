@@ -1,0 +1,7 @@
+{
+  "name": "KHCN Attendance",
+  "description": "Smart facial recognition attendance system for Science & Technology Department using Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
