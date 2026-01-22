@@ -15,7 +15,8 @@ const Layout: React.FC<LayoutProps> = ({ children, currentView, setView, title }
       {/* Top Header */}
       <header className="bg-white shadow-sm sticky top-0 z-30 px-4 h-14 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-            <img src="https://med.ump.edu.vn/html/images/logo_khoaY.png" />
+          <div><img src="https://med.ump.edu.vn/html/images/logo_khoaY.png" /></div>
+            
             <div>
                 <h1 className="text-sm font-bold text-gray-800 leading-tight">Phòng QTTH</h1>
                 <p className="text-xs text-gray-500">{title}</p>
