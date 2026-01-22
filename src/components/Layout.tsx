@@ -15,9 +15,13 @@ const Layout: React.FC<LayoutProps> = ({ children, currentView, setView, title }
       {/* Top Header */}
       <header className="bg-white shadow-sm sticky top-0 z-30 px-4 h-14 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-brand-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              SM
-          </div>
+          <div className="w-9 h-9 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm border border-gray-100">
+                <img 
+                    src="https://med.ump.edu.vn/html/images/logo_khoaY.png" 
+                    alt="Logo" 
+                    className="w-full h-full object-contain p-1" 
+                />
+            </div>
                 <h1 className="text-sm font-bold text-gray-800 leading-tight">Phòng QTTH</h1>
                 <p className="text-xs text-gray-500">{title}</p>
             </div>
