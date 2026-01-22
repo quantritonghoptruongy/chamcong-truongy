@@ -16,8 +16,8 @@ const Layout: React.FC<LayoutProps> = ({ children, currentView, setView, title }
       <header className="bg-white shadow-sm sticky top-0 z-30 px-4 h-14 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-brand-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-    SM
-</div>
+              SM
+          </div>
                 <h1 className="text-sm font-bold text-gray-800 leading-tight">Phòng QTTH</h1>
                 <p className="text-xs text-gray-500">{title}</p>
             </div>
