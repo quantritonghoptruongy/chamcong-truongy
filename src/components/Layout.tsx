@@ -39,9 +39,9 @@ const Layout: React.FC<LayoutProps> = ({ children, currentView, setView, title }
 
         {/* Author Info Footer */}
         <div className="mt-10 mb-2 py-6 border-t border-gray-200/60 text-center opacity-80">
-            <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2 font-medium">Phát triển bởi</p>
-            <p className="text-xs font-bold text-brand-800 mb-0.5">Trường Y</p>
-            <p className="text-[10px] text-gray-600 font-medium">Phòng Quản trị Tổng hợp</p>
+            <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2 font-medium">Update bởi</p>
+            <p className="text-xs font-bold text-brand-800 mb-0.5">Phòng Quản trị Tổng hợp</p>
+            <p className="text-[10px] text-gray-600 font-medium">Trường Y</p>
             <p className="text-[10px] text-gray-500">Đại học Y Dược TPHCM</p>
         </div>
       </main>
