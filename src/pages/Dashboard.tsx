@@ -135,7 +135,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onNotification }) => {
     });
 
     onNotification(
-      `Thành công! ${type === 'CHECK_IN' ? 'Vào ca' : 'Ra ca'}`,
+      `Thành công! ${type === 'CHECK_IN' ? 'Vào ca' : 'Tan ca'}`,
       'success'
     );
     setIsProcessing(false);
@@ -202,7 +202,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onNotification }) => {
           disabled={isProcessing || !selectedEmpId}
           className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center space-y-3 disabled:opacity-50 active:scale-95 transition-all"
         >
-          <span className="font-semibold text-gray-700">Ra ca</span>
+          <span className="font-semibold text-gray-700">Tan ca</span>
         </button>
       </div>
 
