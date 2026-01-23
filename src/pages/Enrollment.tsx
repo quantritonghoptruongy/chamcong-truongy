@@ -106,10 +106,10 @@ const Enrollment: React.FC<EnrollmentProps> = ({ onNotification }) => {
 
         <div className="grid grid-cols-2 gap-3">
             <button 
-                onClick={() => handleAddWifi('UMP_MED')}
+                onClick={() => handleAddWifi('UMP_NCKH')}
                 className="bg-blue-600 text-white text-xs font-bold py-2 px-3 rounded-lg shadow-sm hover:bg-blue-700 active:scale-95 transition-all"
             >
-                Thiết lập UMP_MED
+                Thiết lập UMP_NCKH
             </button>
              <button 
                 onClick={() => handleAddWifi('UMP_GV')}
